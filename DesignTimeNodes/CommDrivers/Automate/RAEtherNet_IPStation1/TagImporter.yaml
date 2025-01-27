@@ -1,6 +1,6 @@
 Name: TagImporter
 Type: RAEtherNetIPTagImporter
-OwnerId: ns=2;g=a298014bc698994e3d339aad7c6243ea
+OwnerId: ns=2;g=93907473f9989b1b85c25b62988996e8
 Children:
 - Name: IgnoredPLCItems
   Type: BaseDataVariableType
@@ -15,3 +15,4 @@ Children:
 - Name: Mode
   Type: BaseDataVariableType
   DataType: FetchModes
+  Value: 1

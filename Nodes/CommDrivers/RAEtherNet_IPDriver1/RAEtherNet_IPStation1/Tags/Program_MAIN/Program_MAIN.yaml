@@ -233,6 +233,9 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:MAIN.cell_entree"
+  - Name: Encoding
+    Type: BaseDataVariableType
+    DataType: Encoding
 - Name: cell_sortie
   Type: RAEtherNetIPTag
   DataType: Boolean
