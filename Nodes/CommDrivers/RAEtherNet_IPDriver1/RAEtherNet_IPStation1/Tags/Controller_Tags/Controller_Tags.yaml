@@ -2063,6 +2063,22 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "PROD:I.Slot[12].Data"
+    - Name: Fault
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Fault"
+    - Name: Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"
 - Name: 'PROD:O'
   Type: 'AB:1756_ENET_13SLOT:O:0'
   DataType: 'AB:1756_ENET_13SLOT:O:0'
@@ -2229,6 +2245,14 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "PROD:O.Slot[12].Data"
+    - Name: Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"
 - Name: TABLE_C
   Type: RAEtherNetIPTag
   DataType: Int32
@@ -2423,6 +2447,30 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "Optix_Motor_Array[4].FaultCode"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Status"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FaultCode"
 - Name: Optix_Motor_Recipe1
   Type: _Optix_Motor_Recipe
   DataType: _Optix_Motor_Recipe

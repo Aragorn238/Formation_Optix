@@ -169,6 +169,14 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "Data"
+    - Name: Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"
 - Name: 'AB:1756_DI_DC_Diag:C:0'
   Id: g=5b3f6a0eba702aece9fa1c070bb6b609
   Supertype: TagStructure
@@ -1475,6 +1483,22 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "Data"
+    - Name: Fault
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Fault"
+    - Name: Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"
 - Name: 'AB:1756_AI6_Float:I:0'
   Id: g=51330106028c93f354aef5eb8c8aa31e
   Supertype: TagStructure
