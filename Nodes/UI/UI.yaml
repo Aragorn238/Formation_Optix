@@ -320,6 +320,21 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 250.0
+    - Name: ScalePadding
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: MajorTickCount
+      Type: BaseDataVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 13.0
+    - Name: MinorTickCount
+      Type: BaseDataVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 5.0
   - Name: CircularGauge2
     Type: CircularGauge
     Children:
@@ -359,7 +374,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Float
       ModellingRule: Optional
-      Value: 10.0
+      Value: 14.0
     - Name: MinorTickCount
       Type: BaseDataVariableType
       DataType: Float
