@@ -1,0 +1,2291 @@
+Name: 'Program:MAIN'
+Type: FolderType
+Children:
+- Name: BP_MARCHE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.BP_MARCHE"
+- Name: LAMPE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.LAMPE"
+- Name: MAINT
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.MAINT"
+- Name: ARR
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.ARR"
+- Name: T_Start
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.T_Start.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.T_Start.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.T_Start.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.T_Start.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.T_Start.DN"
+- Name: t_Stop
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.t_Stop.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.t_Stop.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.t_Stop.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.t_Stop.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.t_Stop.DN"
+- Name: fly
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.fly"
+- Name: places
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.places.UN"
+- Name: cell_entree
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.cell_entree"
+- Name: cell_sortie
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.cell_sortie"
+- Name: park_complet
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.park_complet"
+- Name: Time_Tab
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.Time_Tab"
+- Name: start
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.start"
+- Name: Tab
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [7]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.Tab"
+- Name: TAB_FIFO
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.TAB_FIFO"
+- Name: CONTROL
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.CONTROL.FD"
+- Name: ETAPE_0
+  Type: SFC_STEP
+  DataType: SFC_STEP
+  ValueRank: OneDimension
+  ArrayDimensions: [5]
+  Children:
+  - Name: 0
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[0].LimitHigh"
+  - Name: 1
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[1].LimitHigh"
+  - Name: 2
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[2].LimitHigh"
+  - Name: 3
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[3].LimitHigh"
+  - Name: 4
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_0[4].LimitHigh"
+- Name: ETAPE_G7_TAMBOUR
+  Type: SFC_STEP
+  DataType: SFC_STEP
+  ValueRank: OneDimension
+  ArrayDimensions: [5]
+  Children:
+  - Name: 0
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[0].LimitHigh"
+  - Name: 1
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[1].LimitHigh"
+  - Name: 2
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[2].LimitHigh"
+  - Name: 3
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[3].LimitHigh"
+  - Name: 4
+    Type: SFC_STEP
+    DataType: SFC_STEP
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].Status"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].X"
+    - Name: FS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].FS"
+    - Name: SA
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].SA"
+    - Name: LS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].LS"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].OV"
+    - Name: AlarmEn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].AlarmEn"
+    - Name: AlarmLow
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].AlarmLow"
+    - Name: AlarmHigh
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].AlarmHigh"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].Reset"
+    - Name: PauseTimer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].PauseTimer"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].PRE"
+    - Name: T
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].T"
+    - Name: TMax
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].TMax"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].Count"
+    - Name: LimitLow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].LimitLow"
+    - Name: LimitHigh
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MAIN.ETAPE_G7_TAMBOUR[4].LimitHigh"
+- Name: TR_G7_TAMBOUR
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.TR_G7_TAMBOUR"
+- Name: S_PRE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.S_PRE"
+- Name: S_BLOQ
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.S_BLOQ"
+- Name: S_VIS
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.S_VIS"
+- Name: VY_ATT
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.VY_ATT"
+- Name: ATTENTE
+  Type: SFC_ACTION
+  DataType: SFC_ACTION
+  Children:
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.Status"
+  - Name: A
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.A"
+  - Name: Q
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.Q"
+  - Name: PauseTimer
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.PauseTimer"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.PRE"
+  - Name: T
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.T"
+  - Name: Count
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ATTENTE.Count"
+- Name: BLOCAGE
+  Type: SFC_ACTION
+  DataType: SFC_ACTION
+  Children:
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.Status"
+  - Name: A
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.A"
+  - Name: Q
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.Q"
+  - Name: PauseTimer
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.PauseTimer"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.PRE"
+  - Name: T
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.T"
+  - Name: Count
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.BLOCAGE.Count"
+- Name: EV_B
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.EV_B"
+- Name: VISSAGE
+  Type: SFC_ACTION
+  DataType: SFC_ACTION
+  Children:
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.Status"
+  - Name: A
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.A"
+  - Name: Q
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.Q"
+  - Name: PauseTimer
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.PauseTimer"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.PRE"
+  - Name: T
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.T"
+  - Name: Count
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.VISSAGE.Count"
+- Name: KM_AV
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.KM_AV"
+- Name: DEBLOCAGE
+  Type: SFC_ACTION
+  DataType: SFC_ACTION
+  Children:
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.Status"
+  - Name: A
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.A"
+  - Name: Q
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.Q"
+  - Name: PauseTimer
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.PauseTimer"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.PRE"
+  - Name: T
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.T"
+  - Name: Count
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.DEBLOCAGE.Count"
+- Name: EJECTION
+  Type: SFC_ACTION
+  DataType: SFC_ACTION
+  Children:
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.Status"
+  - Name: A
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.A"
+  - Name: Q
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.Q"
+  - Name: PauseTimer
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.PauseTimer"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.PRE"
+  - Name: T
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.T"
+  - Name: Count
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.EJECTION.Count"
+- Name: KM_EJ
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MAIN.KM_EJ"
+- Name: ANA_0
+  Type: CONVERTISSEUR_L_GAL_OBL
+  DataType: CONVERTISSEUR_L_GAL_OBL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ANA_0.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ANA_0.EnableOut"
+  - Name: ENTREE_ANA
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ANA_0.ENTREE_ANA"
+  - Name: LITRES
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ANA_0.LITRES"
+  - Name: GALLONS
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ANA_0.GALLONS"
+  - Name: OIL_BARILS
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.ANA_0.OIL_BARILS"
+- Name: timer
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.timer.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.timer.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.timer.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.timer.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MAIN.timer.DN"
