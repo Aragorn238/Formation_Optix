@@ -31,16 +31,24 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 6.3
+  9:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
  Statistics:
-  TotalNodeCount: 140
-  Objects: 72
+  TotalNodeCount: 2203
+  Objects: 106
   ObjectTypes: 1
-  Variables: 67
-  VariableTypes: 0
-  DataTypes: 0
+  Variables: 2056
+  VariableTypes: 20
+  DataTypes: 20
   Methods: 0
-  References: 0
+  References: 6
   ReferenceTypes: 0
-  Files: 21
+  Files: 29
  Nodes:
  - File: Nodes/Formation_Optix.yaml
