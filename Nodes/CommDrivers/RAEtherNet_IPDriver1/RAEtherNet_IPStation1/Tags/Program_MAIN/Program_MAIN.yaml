@@ -36,6 +36,18 @@ Children:
 - Name: T_Start
   Type: TIMER
   DataType: TIMER
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: PRE
     Type: RAEtherNetIPTag
@@ -80,6 +92,18 @@ Children:
 - Name: t_Stop
   Type: TIMER
   DataType: TIMER
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: PRE
     Type: RAEtherNetIPTag
@@ -132,6 +156,18 @@ Children:
 - Name: places
   Type: COUNTER
   DataType: COUNTER
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: PRE
     Type: RAEtherNetIPTag
@@ -197,6 +233,9 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:MAIN.cell_entree"
+  - Name: Encoding
+    Type: BaseDataVariableType
+    DataType: Encoding
 - Name: cell_sortie
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -254,6 +293,18 @@ Children:
 - Name: CONTROL
   Type: CONTROL
   DataType: CONTROL
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: LEN
     Type: RAEtherNetIPTag
@@ -340,10 +391,23 @@ Children:
   DataType: SFC_STEP
   ValueRank: OneDimension
   ArrayDimensions: [5]
+  Value: [{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]
   Children:
   - Name: 0
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -492,6 +556,18 @@ Children:
   - Name: 1
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -640,6 +716,18 @@ Children:
   - Name: 2
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -788,6 +876,18 @@ Children:
   - Name: 3
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -936,6 +1036,18 @@ Children:
   - Name: 4
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -1230,10 +1342,23 @@ Children:
   DataType: SFC_STEP
   ValueRank: OneDimension
   ArrayDimensions: [5]
+  Value: [{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]
   Children:
   - Name: 0
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -1382,6 +1507,18 @@ Children:
   - Name: 1
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -1530,6 +1667,18 @@ Children:
   - Name: 2
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -1678,6 +1827,18 @@ Children:
   - Name: 3
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -1826,6 +1987,18 @@ Children:
   - Name: 4
     Type: SFC_STEP
     DataType: SFC_STEP
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: Status
       Type: RAEtherNetIPTag
@@ -2160,6 +2333,18 @@ Children:
 - Name: ATTENTE
   Type: SFC_ACTION
   DataType: SFC_ACTION
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag
@@ -2220,6 +2405,18 @@ Children:
 - Name: BLOCAGE
   Type: SFC_ACTION
   DataType: SFC_ACTION
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag
@@ -2288,6 +2485,18 @@ Children:
 - Name: VISSAGE
   Type: SFC_ACTION
   DataType: SFC_ACTION
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag
@@ -2356,6 +2565,18 @@ Children:
 - Name: DEBLOCAGE
   Type: SFC_ACTION
   DataType: SFC_ACTION
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag
@@ -2416,6 +2637,18 @@ Children:
 - Name: EJECTION
   Type: SFC_ACTION
   DataType: SFC_ACTION
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag
@@ -2484,6 +2717,18 @@ Children:
 - Name: ANA_0
   Type: CONVERTISSEUR_L_GAL_OBL
   DataType: CONVERTISSEUR_L_GAL_OBL
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: EnableIn
     Type: RAEtherNetIPTag
@@ -2536,6 +2781,18 @@ Children:
 - Name: timer
   Type: TIMER
   DataType: TIMER
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: PRE
     Type: RAEtherNetIPTag

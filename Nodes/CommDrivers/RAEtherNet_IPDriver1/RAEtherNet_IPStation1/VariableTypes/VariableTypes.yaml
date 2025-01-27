@@ -2,20 +2,45 @@ Name: VariableTypes
 Type: FolderType
 Children:
 - Name: 'AB:1756_ENET_13SLOT:O:0'
-  Id: g=0238c111d8443ae7999bd43679e4f8cc
+  Id: g=75d55f38d652117cfca57cc91c40c651
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_13SLOT:O:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Slot
     Type: 'AB:1756_ENET_SLOT:O:0'
     DataType: 'AB:1756_ENET_SLOT:O:0'
     ValueRank: OneDimension
     ArrayDimensions: [13]
+    Value: [{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]
     Children:
     - Name: 0
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -28,6 +53,18 @@ Children:
     - Name: 1
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -40,6 +77,18 @@ Children:
     - Name: 2
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -52,6 +101,18 @@ Children:
     - Name: 3
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -64,6 +125,18 @@ Children:
     - Name: 4
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -76,6 +149,18 @@ Children:
     - Name: 5
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -88,6 +173,18 @@ Children:
     - Name: 6
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -100,6 +197,18 @@ Children:
     - Name: 7
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -112,6 +221,18 @@ Children:
     - Name: 8
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -124,6 +245,18 @@ Children:
     - Name: 9
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -136,6 +269,18 @@ Children:
     - Name: 10
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -148,6 +293,18 @@ Children:
     - Name: 11
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -160,6 +317,18 @@ Children:
     - Name: 12
       Type: 'AB:1756_ENET_SLOT:O:0'
       DataType: 'AB:1756_ENET_SLOT:O:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Data
         Type: RAEtherNetIPTag
@@ -178,10 +347,22 @@ Children:
         DataType: String
         Value: "Data"
 - Name: 'AB:1756_DI_DC_Diag:C:0'
-  Id: g=7c1dd0e7e683b6dfc9585b27300f7fd5
+  Id: g=e1ba7a7e598caacdd7f856e7ec90afbb
   Supertype: TagStructure
   DataType: 'AB:1756_DI_DC_Diag:C:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: DiagCOSDisable
     Type: RAEtherNetIPTag
@@ -256,10 +437,22 @@ Children:
       DataType: String
       Value: "OpenWireEn"
 - Name: 'AB:1756_DI_DC_Diag:I:0'
-  Id: g=8762b4348c4c736e2dc6c1bbb4590641
+  Id: g=34f2b1f64d260bd368116cd64ec348be
   Supertype: TagStructure
   DataType: 'AB:1756_DI_DC_Diag:I:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Fault
     Type: RAEtherNetIPTag
@@ -296,10 +489,22 @@ Children:
       DataType: String
       Value: "OpenWire"
 - Name: 'AB:1756_ENET_SLOT:I:0'
-  Id: g=5a973b79855390a4ca58094d9ce5c5e1
+  Id: g=34ee65c577be215b5bf3447bb2d15000
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_SLOT:I:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Fault
     Type: RAEtherNetIPTag
@@ -318,10 +523,22 @@ Children:
       DataType: String
       Value: "Data"
 - Name: 'AB:1756_AI6_Float:C:0'
-  Id: g=78f7400f3eea17782ba30f0b5eaff51e
+  Id: g=31af3555c3ec340b02300ad02b62073d
   Supertype: TagStructure
   DataType: 'AB:1756_AI6_Float:C:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: RemoteTermination
     Type: RAEtherNetIPTag
@@ -366,6 +583,18 @@ Children:
   - Name: Ch0Config
     Type: 'AB:1756_AI6_Struct:C:0'
     DataType: 'AB:1756_AI6_Struct:C:0'
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: RangeTypeNotch
       Type: RAEtherNetIPTag
@@ -506,6 +735,18 @@ Children:
   - Name: Ch1Config
     Type: 'AB:1756_AI6_Struct:C:0'
     DataType: 'AB:1756_AI6_Struct:C:0'
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: RangeTypeNotch
       Type: RAEtherNetIPTag
@@ -646,6 +887,18 @@ Children:
   - Name: Ch2Config
     Type: 'AB:1756_AI6_Struct:C:0'
     DataType: 'AB:1756_AI6_Struct:C:0'
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: RangeTypeNotch
       Type: RAEtherNetIPTag
@@ -786,6 +1039,18 @@ Children:
   - Name: Ch3Config
     Type: 'AB:1756_AI6_Struct:C:0'
     DataType: 'AB:1756_AI6_Struct:C:0'
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: RangeTypeNotch
       Type: RAEtherNetIPTag
@@ -926,6 +1191,18 @@ Children:
   - Name: Ch4Config
     Type: 'AB:1756_AI6_Struct:C:0'
     DataType: 'AB:1756_AI6_Struct:C:0'
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: RangeTypeNotch
       Type: RAEtherNetIPTag
@@ -1066,6 +1343,18 @@ Children:
   - Name: Ch5Config
     Type: 'AB:1756_AI6_Struct:C:0'
     DataType: 'AB:1756_AI6_Struct:C:0'
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
     Children:
     - Name: RangeTypeNotch
       Type: RAEtherNetIPTag
@@ -1204,10 +1493,22 @@ Children:
         DataType: String
         Value: "CalBias"
 - Name: 'AB:1756_ENET_13SLOT:I:0'
-  Id: g=ce9cb79713de043630c2dcccc89b7a35
+  Id: g=02ed387cbec130aa9b111729df51db64
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_13SLOT:I:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: SlotStatusBits
     Type: RAEtherNetIPTag
@@ -1222,10 +1523,23 @@ Children:
     DataType: 'AB:1756_ENET_SLOT:I:0'
     ValueRank: OneDimension
     ArrayDimensions: [13]
+    Value: [{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]
     Children:
     - Name: 0
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1246,6 +1560,18 @@ Children:
     - Name: 1
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1266,6 +1592,18 @@ Children:
     - Name: 2
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1286,6 +1624,18 @@ Children:
     - Name: 3
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1306,6 +1656,18 @@ Children:
     - Name: 4
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1326,6 +1688,18 @@ Children:
     - Name: 5
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1346,6 +1720,18 @@ Children:
     - Name: 6
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1366,6 +1752,18 @@ Children:
     - Name: 7
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1386,6 +1784,18 @@ Children:
     - Name: 8
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1406,6 +1816,18 @@ Children:
     - Name: 9
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1426,6 +1848,18 @@ Children:
     - Name: 10
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1446,6 +1880,18 @@ Children:
     - Name: 11
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1466,6 +1912,18 @@ Children:
     - Name: 12
       Type: 'AB:1756_ENET_SLOT:I:0'
       DataType: 'AB:1756_ENET_SLOT:I:0'
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
       Children:
       - Name: Fault
         Type: RAEtherNetIPTag
@@ -1500,10 +1958,22 @@ Children:
         DataType: String
         Value: "Data"
 - Name: 'AB:1756_AI6_Float:I:0'
-  Id: g=83f92fe997fd3d75d6f9a9a561eb5bce
+  Id: g=87882cfd6b0a658222579e2333f1ce52
   Supertype: TagStructure
   DataType: 'AB:1756_AI6_Float:I:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: ChannelFaults
     Type: RAEtherNetIPTag
@@ -2090,10 +2560,22 @@ Children:
       DataType: String
       Value: "RollingTimestamp"
 - Name: CONVERTISSEUR_L_GAL_OBL
-  Id: g=38280cbcb869cf37a455af803b81d050
+  Id: g=1a53b7e80c428d0ac557781d70073c97
   Supertype: TagStructure
   DataType: CONVERTISSEUR_L_GAL_OBL
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: EnableIn
     Type: RAEtherNetIPTag
@@ -2144,10 +2626,22 @@ Children:
       DataType: String
       Value: "OIL_BARILS"
 - Name: 'AB:1756_DO:O:0'
-  Id: g=337c07157f71a5eda0e35f84d997bfc8
+  Id: g=97ce4c7a76a67986bc86e8bd6cbf4c1e
   Supertype: TagStructure
   DataType: 'AB:1756_DO:O:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Data
     Type: RAEtherNetIPTag
@@ -2158,10 +2652,22 @@ Children:
       DataType: String
       Value: "Data"
 - Name: 'AB:1756_ENET_SLOT:O:0'
-  Id: g=180bc71f98f7fe5a9ad0872e8796ec83
+  Id: g=c394f72d282060ce09ac32015e21f081
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_SLOT:O:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Data
     Type: RAEtherNetIPTag
@@ -2172,10 +2678,22 @@ Children:
       DataType: String
       Value: "Data"
 - Name: _Optix_Motor
-  Id: g=e2a74c1e17bd344bc069e154d35bceb9
+  Id: g=5f89cf954b64544bd0c9aa47ca19774f
   Supertype: TagStructure
   DataType: _Optix_Motor
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Speed
     Type: RAEtherNetIPTag
@@ -2202,10 +2720,22 @@ Children:
       DataType: String
       Value: "FaultCode"
 - Name: 'AB:1756_AI6_Struct:C:0'
-  Id: g=430b62d077f35a2a41d5215b12d7c6b7
+  Id: g=27be96f595329d006e9d577325ebfb4d
   Supertype: TagStructure
   DataType: 'AB:1756_AI6_Struct:C:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: RangeTypeNotch
     Type: RAEtherNetIPTag
@@ -2344,10 +2874,22 @@ Children:
       DataType: String
       Value: "CalBias"
 - Name: _Optix_Motor_Recipe
-  Id: g=ebcfaed3025c188320aaab6eb0e2f939
+  Id: g=3677dbdeb59dbb489b016aba8b56aa52
   Supertype: TagStructure
   DataType: _Optix_Motor_Recipe
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: SpeedSetPoint
     Type: RAEtherNetIPTag
@@ -2398,10 +2940,22 @@ Children:
       DataType: String
       Value: "StatusOnOff"
 - Name: 'AB:1756_DO_DC_Diag:C:0'
-  Id: g=f6004f70d816d5972209308e767ec340
+  Id: g=b75ba76e78b54306397f756d4f668c17
   Supertype: TagStructure
   DataType: 'AB:1756_DO_DC_Diag:C:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: ProgToFaultEn
     Type: RAEtherNetIPTag
@@ -2468,10 +3022,22 @@ Children:
       DataType: String
       Value: "OutputVerifyEn"
 - Name: 'AB:1756_DO_DC_Diag:I:0'
-  Id: g=c3ff29d8ec164529f9833bd62cdfdf73
+  Id: g=74dacee3699736e67b762b0c18c33c47
   Supertype: TagStructure
   DataType: 'AB:1756_DO_DC_Diag:I:0'
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Fault
     Type: RAEtherNetIPTag
@@ -2524,10 +3090,22 @@ Children:
       DataType: String
       Value: "OutputVerifyFault"
 - Name: TIMER
-  Id: g=25cd5d52ab12f02bb0fb2d739a377f38
+  Id: g=e928e8b33f4ef6eb700162ce512d53e0
   Supertype: TagStructure
   DataType: TIMER
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: PRE
     Type: RAEtherNetIPTag
@@ -2570,10 +3148,22 @@ Children:
       DataType: String
       Value: "DN"
 - Name: COUNTER
-  Id: g=d026e8cfbdc49c2b789efbb6952f32d8
+  Id: g=abae7c986bb2d3e3a0cf3e9787a145f3
   Supertype: TagStructure
   DataType: COUNTER
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: PRE
     Type: RAEtherNetIPTag
@@ -2632,10 +3222,22 @@ Children:
       DataType: String
       Value: "UN"
 - Name: CONTROL
-  Id: g=eb0355cb7c1c6bfe06811fa588d7f108
+  Id: g=2344e79d1241640ab5b70d1b99eeb1a6
   Supertype: TagStructure
   DataType: CONTROL
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: LEN
     Type: RAEtherNetIPTag
@@ -2718,10 +3320,22 @@ Children:
       DataType: String
       Value: "FD"
 - Name: SFC_STEP
-  Id: g=164b1fb04df1eacdc9fbe1b3930e3de1
+  Id: g=dcc5946698b3c4bd53c1db694633f642
   Supertype: TagStructure
   DataType: SFC_STEP
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag
@@ -2868,10 +3482,22 @@ Children:
       DataType: String
       Value: "LimitHigh"
 - Name: SFC_ACTION
-  Id: g=1efac5671170775693c0e9bf77861c88
+  Id: g=7418526cda72bb731bedd47ec42247bf
   Supertype: TagStructure
   DataType: SFC_ACTION
   ValueRank: Any
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
   Children:
   - Name: Status
     Type: RAEtherNetIPTag

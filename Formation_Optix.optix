@@ -52,9 +52,9 @@ Project:
    Module: FTOptix.SQLiteStore
    Version: 1.0
   13:
-   Uri: 'urn:FTOptix:Core:Net'
-   Module: FTOptix.Core.Net
-   Version: 2.0
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
   14:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
@@ -99,24 +99,24 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 4.0
-  25:
-   Uri: 'urn:FTOptix:WebUI'
-   Module: FTOptix.WebUI
-   Version: 1.2
   26:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.2
+  27:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 2531
-  Objects: 144
+  TotalNodeCount: 2616
+  Objects: 163
   ObjectTypes: 1
-  Variables: 2345
+  Variables: 2411
   VariableTypes: 20
   DataTypes: 20
   Methods: 1
-  References: 29
+  References: 38
   ReferenceTypes: 0
-  Files: 29
+  Files: 34
  Nodes:
  - File: Nodes/Formation_Optix.yaml
