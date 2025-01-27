@@ -1,6 +1,6 @@
 Name: TagImporter
 Type: RAEtherNetIPTagImporter
-OwnerId: ns=2;g=3f05f843bfb01746314da859b5650570
+OwnerId: ns=2;g=a298014bc698994e3d339aad7c6243ea
 Children:
 - Name: IgnoredPLCItems
   Type: BaseDataVariableType
@@ -16,3 +16,7 @@ Children:
   Type: BaseDataVariableType
   DataType: FetchModes
   Value: 1
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///D:/Actemium/5 - Formations/Optix/Training_Clermont.ACD"
