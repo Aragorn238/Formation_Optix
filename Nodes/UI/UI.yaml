@@ -285,4 +285,9 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 220.0
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":""}
 - File: Screens/Screens.yaml
