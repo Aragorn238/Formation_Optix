@@ -40,10 +40,10 @@ Project:
    Module: FTOptix.CommunicationDriver
    Version: 3.0
  Statistics:
-  TotalNodeCount: 2297
+  TotalNodeCount: 2302
   Objects: 107
   ObjectTypes: 1
-  Variables: 2149
+  Variables: 2154
   VariableTypes: 20
   DataTypes: 20
   Methods: 0
