@@ -2,7 +2,7 @@ Name: VariableTypes
 Type: FolderType
 Children:
 - Name: 'AB:1756_ENET_13SLOT:O:0'
-  Id: g=ed56b496f835241f535ab6783f3ce15f
+  Id: g=0238c111d8443ae7999bd43679e4f8cc
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_13SLOT:O:0'
   ValueRank: Any
@@ -169,8 +169,16 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "Data"
+    - Name: Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"
 - Name: 'AB:1756_DI_DC_Diag:C:0'
-  Id: g=9a06d57be3fc61b6553070e182d37a66
+  Id: g=7c1dd0e7e683b6dfc9585b27300f7fd5
   Supertype: TagStructure
   DataType: 'AB:1756_DI_DC_Diag:C:0'
   ValueRank: Any
@@ -248,7 +256,7 @@ Children:
       DataType: String
       Value: "OpenWireEn"
 - Name: 'AB:1756_DI_DC_Diag:I:0'
-  Id: g=546f46de2e5382fd2c3ed3ab2107209d
+  Id: g=8762b4348c4c736e2dc6c1bbb4590641
   Supertype: TagStructure
   DataType: 'AB:1756_DI_DC_Diag:I:0'
   ValueRank: Any
@@ -288,7 +296,7 @@ Children:
       DataType: String
       Value: "OpenWire"
 - Name: 'AB:1756_ENET_SLOT:I:0'
-  Id: g=967ef236a19ddef1417064b3ac22c799
+  Id: g=5a973b79855390a4ca58094d9ce5c5e1
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_SLOT:I:0'
   ValueRank: Any
@@ -310,7 +318,7 @@ Children:
       DataType: String
       Value: "Data"
 - Name: 'AB:1756_AI6_Float:C:0'
-  Id: g=eddfb8e64628b9c8a1c1f68cfc0ad8be
+  Id: g=78f7400f3eea17782ba30f0b5eaff51e
   Supertype: TagStructure
   DataType: 'AB:1756_AI6_Float:C:0'
   ValueRank: Any
@@ -1196,7 +1204,7 @@ Children:
         DataType: String
         Value: "CalBias"
 - Name: 'AB:1756_ENET_13SLOT:I:0'
-  Id: g=8848cd2515f824992e9e8121a703b398
+  Id: g=ce9cb79713de043630c2dcccc89b7a35
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_13SLOT:I:0'
   ValueRank: Any
@@ -1475,8 +1483,24 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "Data"
+    - Name: Fault
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Fault"
+    - Name: Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"
 - Name: 'AB:1756_AI6_Float:I:0'
-  Id: g=bdbf2da49200d6e0fc3f63640f3683f9
+  Id: g=83f92fe997fd3d75d6f9a9a561eb5bce
   Supertype: TagStructure
   DataType: 'AB:1756_AI6_Float:I:0'
   ValueRank: Any
@@ -2066,7 +2090,7 @@ Children:
       DataType: String
       Value: "RollingTimestamp"
 - Name: CONVERTISSEUR_L_GAL_OBL
-  Id: g=993c48354dded55bb28c6b1f313dc229
+  Id: g=38280cbcb869cf37a455af803b81d050
   Supertype: TagStructure
   DataType: CONVERTISSEUR_L_GAL_OBL
   ValueRank: Any
@@ -2120,7 +2144,7 @@ Children:
       DataType: String
       Value: "OIL_BARILS"
 - Name: 'AB:1756_DO:O:0'
-  Id: g=63364e450867f264ff4395d501651209
+  Id: g=337c07157f71a5eda0e35f84d997bfc8
   Supertype: TagStructure
   DataType: 'AB:1756_DO:O:0'
   ValueRank: Any
@@ -2134,7 +2158,7 @@ Children:
       DataType: String
       Value: "Data"
 - Name: 'AB:1756_ENET_SLOT:O:0'
-  Id: g=ca89c2032a24dfe837ace2e3bdeb4141
+  Id: g=180bc71f98f7fe5a9ad0872e8796ec83
   Supertype: TagStructure
   DataType: 'AB:1756_ENET_SLOT:O:0'
   ValueRank: Any
@@ -2148,7 +2172,7 @@ Children:
       DataType: String
       Value: "Data"
 - Name: _Optix_Motor
-  Id: g=45a287bb86655f7915854c538ac80c92
+  Id: g=e2a74c1e17bd344bc069e154d35bceb9
   Supertype: TagStructure
   DataType: _Optix_Motor
   ValueRank: Any
@@ -2178,7 +2202,7 @@ Children:
       DataType: String
       Value: "FaultCode"
 - Name: 'AB:1756_AI6_Struct:C:0'
-  Id: g=bc25404c288d2052539dcff82314fcf2
+  Id: g=430b62d077f35a2a41d5215b12d7c6b7
   Supertype: TagStructure
   DataType: 'AB:1756_AI6_Struct:C:0'
   ValueRank: Any
@@ -2320,7 +2344,7 @@ Children:
       DataType: String
       Value: "CalBias"
 - Name: _Optix_Motor_Recipe
-  Id: g=14cb70423bed8d3686f537ee947b02c3
+  Id: g=ebcfaed3025c188320aaab6eb0e2f939
   Supertype: TagStructure
   DataType: _Optix_Motor_Recipe
   ValueRank: Any
@@ -2374,7 +2398,7 @@ Children:
       DataType: String
       Value: "StatusOnOff"
 - Name: 'AB:1756_DO_DC_Diag:C:0'
-  Id: g=ed527b04c2fd3d9b58c5b92c009a468d
+  Id: g=f6004f70d816d5972209308e767ec340
   Supertype: TagStructure
   DataType: 'AB:1756_DO_DC_Diag:C:0'
   ValueRank: Any
@@ -2444,7 +2468,7 @@ Children:
       DataType: String
       Value: "OutputVerifyEn"
 - Name: 'AB:1756_DO_DC_Diag:I:0'
-  Id: g=a3c0d3edc83cc6273c5be2f40245759a
+  Id: g=c3ff29d8ec164529f9833bd62cdfdf73
   Supertype: TagStructure
   DataType: 'AB:1756_DO_DC_Diag:I:0'
   ValueRank: Any
@@ -2500,7 +2524,7 @@ Children:
       DataType: String
       Value: "OutputVerifyFault"
 - Name: TIMER
-  Id: g=c61a20403dcb51c61b45813e6abf1bef
+  Id: g=25cd5d52ab12f02bb0fb2d739a377f38
   Supertype: TagStructure
   DataType: TIMER
   ValueRank: Any
@@ -2546,7 +2570,7 @@ Children:
       DataType: String
       Value: "DN"
 - Name: COUNTER
-  Id: g=5c28d1b60fca2a8576572c8be7e016b9
+  Id: g=d026e8cfbdc49c2b789efbb6952f32d8
   Supertype: TagStructure
   DataType: COUNTER
   ValueRank: Any
@@ -2608,7 +2632,7 @@ Children:
       DataType: String
       Value: "UN"
 - Name: CONTROL
-  Id: g=696c915ac59e1323e46bb8e6b30c4e31
+  Id: g=eb0355cb7c1c6bfe06811fa588d7f108
   Supertype: TagStructure
   DataType: CONTROL
   ValueRank: Any
@@ -2694,7 +2718,7 @@ Children:
       DataType: String
       Value: "FD"
 - Name: SFC_STEP
-  Id: g=4ed3fae0e515e73ab5bb474f0b78224f
+  Id: g=164b1fb04df1eacdc9fbe1b3930e3de1
   Supertype: TagStructure
   DataType: SFC_STEP
   ValueRank: Any
@@ -2844,7 +2868,7 @@ Children:
       DataType: String
       Value: "LimitHigh"
 - Name: SFC_ACTION
-  Id: g=736e4442fa5f7e16479b5c3ff0765f28
+  Id: g=1efac5671170775693c0e9bf77861c88
   Supertype: TagStructure
   DataType: SFC_ACTION
   ValueRank: Any

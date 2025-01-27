@@ -1,5 +1,5 @@
-Name: UC_Training
-Id: g=50fd9d9a7b39d19c99ae8f89cff39665
+Name: RAEtherNet_IPStation1
+Id: g=a298014bc698994e3d339aad7c6243ea
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
